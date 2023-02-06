@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="content_header">
+            <img src="imgs/logo.png" alt="logo da página" class="img_header">
+            <h1 class="titulo">LetsCal</h1>
+        </div>
+    </header>
+
+    <div class="caixa_calc">
+
+        <div class="linhas">
+            <div class="linha1"></div>
+            <div class="linha2"></div>
+            <div class="linha3"></div>
+        </div>
+
+        <div class="tela">
+            <input type="text" id="valorOperacao" readonly class="caixa_input">
+        </div>
+
+        <div>
+            <button class="backSpace" onclick="backSpace()"><img src="imgs/back.png" alt="" class="img-backSpace"></button>
+        </div>
+
+        <div class="calculadora">
+            <div>
+                <audio src="audio/click.mp3" id="somClique"></audio>
+                <div class="botoes">
+                    <input type="button" onclick="apagar()" value="c" id="txtApagar">
+                    <input type="button" onclick="select()" value="/" id="txtDiv" class="btn-operadores">
+                </div>
+                <div>
+                    <input type="button" onclick="select()" value="7" id="n7" class="btn-number">
+                    <input type="button" onclick="select()" value="8" id="n8" class="btn-number">
+                    <input type="button" onclick="select()" value="9" id="n9" class="btn-number">
+                    <input type="button" onclick="select()" value="+" id="txtMulti" class="btn-operadores">
+                </div>
+                <div>
+                    <input type="button" onclick="select()" value="4" id="n4" class="btn-number">
+                    <input type="button" onclick="select()" value="5" id="n5" class="btn-number">
+                    <input type="button" onclick="select()" value="6" id="n6" class="btn-number">
+                    <input type="button" onclick="select()" value="-" id="txtSubtracao" class="btn-operadores">
+                </div>
+                <div>
+                    <input type="button" onclick="select()" value="1" id="n1" class="btn-number">
+                    <input type="button" onclick="select()" value="2" id="n2" class="btn-number">
+                    <input type="button" onclick="select()" value="3" id="n3" class="btn-number">
+                    <input type="button" onclick="select()" value="*" id="txtAdicao" class="btn-operadores">
+                </div>
+                <div>
+                    <input type="button" onclick="select()" value="0" id="n0">
+                    <input type="button" onclick="select()" value="." id="txtPonto"
+                    class="btn-number">
+                    <input type="button" onclick="igualA()" value="=" id="txtIgual" class="btn-operadores">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="icons-footer">
+            <a href="https://www.linkedin.com/in/caio-colli-75a431240/" target="_blank"><img src="imgs/linkedin.svg" alt="icone Linkedin" class="icon"></a>
+            <a href="https://github.com/CaioColli" target="_blank"><img src="imgs/github.svg" alt="icone GitHub" class="icon"></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

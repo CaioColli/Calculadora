@@ -1,0 +1,162 @@
+body {
+    background-color: #FDF3D7;
+    color: #A24F25;
+    font-family: Arial;
+    font-size: 2.25rem;
+}
+
+header {
+    background-color: #F2D096;
+    height: 9.375rem;
+}
+
+.content_header {
+    display: flex;
+    align-items: center;
+    padding: 1.5625rem 0;
+    margin-left: 3rem;
+}
+
+.titulo {
+    color: #F2D096;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-left: 1.5rem;
+    -webkit-text-stroke: 1px #ffffff;
+}
+
+.caixa_calc {
+    background-color: #F0F0F0;
+    border-radius: 1.25rem;
+    margin: 2.5rem auto;
+    height: 37.5rem;
+    width: 25.8125rem;
+}
+
+.linhas {
+    display: flex;
+    margin-left: 3rem;
+}
+
+.linha1::before {
+    background-color: #C24F4F;
+    content: '';
+    display: block;
+    margin-right: 2px;
+    height: 55px;
+    width: 8px;
+}
+
+.linha2::before {
+    background-color: #E9D846;
+    content: '';
+    display: block;
+    margin-right: 2px;
+    height: 55px;
+    width: 8px;
+}
+
+.linha3::before {
+    background-color: #4AA7DB;
+    content: '';
+    display: block;
+    height: 55px;
+    width: 8px;
+}
+
+.tela {
+    align-items: center;
+    border: .3125rem solid #000000;
+    border-radius: .9375rem;
+    background-color: #D7DECC;
+    display: flex;
+    margin: 0 auto;
+    height: 6.875rem;
+    width: 23.3125rem;
+}
+
+.caixa_input {
+    cursor: default;
+    background-color: transparent;
+    text-align: center;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+
+.caixa_input:focus {
+    outline: none;
+}
+
+.backSpace {
+    border: .125rem solid #000000;
+    border-radius: .3125rem;
+    background-color: #838383;
+    cursor: pointer;
+    height: 2.3rem;
+    margin-top: .75rem;
+    margin-left: 19.8125rem;
+    width: 4rem;
+}
+
+.img-backSpace {
+    width: 2.1rem;
+}
+
+.calculadora {
+    align-items: center;
+    background-color: #CFC1B5;
+    border-radius: .9375rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0.6rem auto;
+    height: 20.25rem;
+    width: 22.0625rem;
+}
+
+.botoes {
+    margin: 1rem auto;
+}
+
+#txtApagar {
+    border: 0.3rem solid #E3D8CA;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 16.25rem;
+}
+
+.btn-number {
+    border: 0.3rem solid #E3D8CA;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0.2rem 0;
+    height: 3rem;
+    width: 5rem;
+}
+
+.btn-operadores {
+    border: 0.3rem solid #E3D8CA;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 3rem;
+    width: 3.75rem;
+}
+
+#n0 {
+    border: 0.3rem solid #E3D8CA;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 3rem;
+    width: 10.625rem;
+}
+
+footer {
+    align-items: center;
+    bottom: 0;
+    background-color: #F2D096;
+    display: flex;
+    height: 5rem;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+}
