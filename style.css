@@ -182,9 +182,4 @@ footer {
     .backSpace {
         margin-left: 17rem;
     }
-
-    footer {
-        bottom: 0;
-        position: absolute;
-    }
 }
