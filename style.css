@@ -29,7 +29,7 @@ header {
 .caixa_calc {
     background-color: #F0F0F0;
     border-radius: 1.25rem;
-    margin: 2.5rem auto;
+    margin: 5rem auto;
     height: 37.5rem;
     width: 25.8125rem;
 }
@@ -152,19 +152,6 @@ header {
     height: 3rem;
     width: 10.625rem;
 }
-
-footer {
-    align-items: center;
-    bottom: 0;
-    background-color: #F2D096;
-    display: flex;
-    flex-wrap: wrap;
-    height: 5rem;
-    position: absolute;
-    justify-content: center;
-    width: 100%;
-}
-
 
 @media screen and (max-width: 640px) {
     body {
