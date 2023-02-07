@@ -167,6 +167,10 @@ footer {
 
 
 @media screen and (max-width: 640px) {
+    body {
+        height: 100vh;
+    }
+    
     .caixa_calc {
         width: 23rem;
     }
