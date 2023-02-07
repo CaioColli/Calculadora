@@ -12,6 +12,7 @@ header {
 
 .content_header {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     padding: 1.5625rem 0;
     margin-left: 3rem;
@@ -35,6 +36,7 @@ header {
 
 .linhas {
     display: flex;
+    flex-wrap: wrap;
     margin-left: 3rem;
 }
 
@@ -109,6 +111,7 @@ header {
     border-radius: .9375rem;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     margin: 0.6rem auto;
     height: 20.25rem;
     width: 22.0625rem;
@@ -155,8 +158,24 @@ footer {
     bottom: 0;
     background-color: #F2D096;
     display: flex;
+    flex-wrap: wrap;
     height: 5rem;
     position: absolute;
     justify-content: center;
     width: 100%;
+}
+
+
+@media screen and (max-width: 640px) {
+    .caixa_calc {
+        width: 23rem;
+    }
+
+    .tela {
+        width: 20rem;
+    }
+
+    .backSpace {
+        margin-left: 17rem;
+    }
 }
